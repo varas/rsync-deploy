@@ -1,0 +1,19 @@
+#
+# List here files to exlude from syncing
+#
+
+# Git local repo
+/.git*
+
+# Custom local folders
+/log/
+/scripts/
+
+# Prestashop cache & config
+/cache/*
+/img/tmp/*
+/config/settings.inc.php
+
+# Wordpress config
+wp-config.php
+/blog/wp-config.php
