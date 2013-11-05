@@ -4,7 +4,7 @@ Simple rsync based deployment scripts: upload, download and compare file utils
 
 ## Configuration
 
-Edit `sync.conf`.
+Rename `sync.conf.sample` to `sync.conf` and edit.
 
 Add the excluded files in `sync.exclude`.
 
