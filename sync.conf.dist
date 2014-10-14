@@ -5,7 +5,7 @@ User="ssh-user"
 Pass=""
 PathLocal="/path-to-local-domain-hdocs/"
 PathRemote="/var/www/vhosts/domain.tld/httpdocs"
-PathExclude="$PathLocal/scripts/sync.exclude"
+PathExclude="$PathLocal/../rsync-deploy/sync.exclude"
 
 echo "----------------------------------------"
 echo ""
